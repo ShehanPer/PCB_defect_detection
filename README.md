@@ -10,7 +10,7 @@ This project implements a YOLOv3-based model to detect defects in printed circui
 
 ## Project Structure
 ```
-project_name/
+PCB_defect_detection/
 ├── README.md                # Documentation
 ├── requirements.txt         # Python dependencies
 ├── detect_uploaded_files.py # Script for detection
@@ -21,9 +21,8 @@ project_name/
 ├── obj.data                 # YOLO data file
 ├── data/                    # Directory for test images and videos
 │   ├── test.jpg             # Example test image
-│   ├── test_video.mp4       # Example test video
-└── utils/
-    └── helper_script.py     # Any additional helper scripts
+
+
 ```
 
 ## Installation
@@ -49,7 +48,8 @@ project_name/
    ```bash
    pip install opencv-python-headless numpy
    ```
-
+   Download trained weight file for the model
+   https://drive.google.com/drive/folders/1tK_NyqkUBpj7k4qPWGfxXpe2s63CKPhk?usp=drive_link
 ## Usage
 
 ### Download Dataset
