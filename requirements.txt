@@ -1,0 +1,15 @@
+opencv-python-headless
+numpy
+Pillow
+matplotlib
+scipy
+tkinter
+seaborn
+albumentations
+opencv-python
+sklearn
+torchvision
+torch
+xmltodict
+tensorflow
+albumentations.pytorch
